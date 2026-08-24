@@ -1,0 +1,40 @@
+{
+  "mcpServers": {
+    "mu": {
+      "url": "https://micro.mu/mcp",
+      "headers": {
+        "Authorization": "Bearer $MU_TOKEN"
+      },
+      "note": "Mu agent platform (micro.mu) - 118 tools: news, web search/fetch, browser, mail, markets, weather, video, files, notes, flights, transit, prayer, sms, wallet/x402",
+      "enabled": true,
+      "createdAt": 1787495308764
+    },
+    "you": {
+      "url": "https://api.you.com/mcp",
+      "headers": {
+        "Authorization": "Bearer $$YOU_API_KEY"
+      },
+      "note": "You.com web intelligence MCP: you-search / you-contents / you-answer / you-research / you-finance. Needs YOU_API_KEY env var in Minis settings.",
+      "enabled": true,
+      "createdAt": 1787506439798
+    },
+    "context7": {
+      "url": "https://mcp.context7.com/mcp",
+      "note": "Up-to-date docs for any library injected into LLM context. Keyless. Tools: resolve-library-id, get-library-docs",
+      "enabled": true,
+      "createdAt": 1787507361770
+    },
+    "deepwiki": {
+      "url": "https://mcp.deepwiki.com/mcp",
+      "note": "DeepWiki: ask questions about ANY GitHub repo, gets structured answers w/ repo knowledge. Keyless.",
+      "enabled": true,
+      "createdAt": 1787507361770
+    },
+    "gitmcp": {
+      "url": "https://gitmcp.io/docs",
+      "note": "GitMCP: generic MCP for any GitHub repo docs (fetch_documentation, search). Keyless.",
+      "enabled": true,
+      "createdAt": 1787507383313
+    }
+  }
+}

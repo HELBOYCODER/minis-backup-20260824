@@ -1,0 +1,4 @@
+[2026-08-23 17:55:06] Installing httpx...
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager, possibly rendering your system unusable.It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv. Use the --root-user-action option if you know what you are doing and want to suppress this warning.
+[2026-08-23 18:54:57] ERROR [CONNECTION_ERROR] Server disconnected without sending a response. (server=mu)
+[2026-08-23 21:20:20] ERROR [PARSE_ERROR] unexpected argument: {"repoName":"browser-use/browser-use","question":"What is browser-use in one sentence?"} (server=deepwiki)
